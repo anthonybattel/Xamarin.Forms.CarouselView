@@ -11,3 +11,10 @@ drp
 *.error
 *.summary
 *.diag
+txt/src/carouselView/dev/lib/dotnet/..\..\..\..\..\..\bin\bld\Debug\carouselView\dev\lib\dotnet\Xamarin.Forms.Core.dll
+txt/src/carouselView/dev/lib/dotnet/..\..\..\..\..\..\bin\bld\Debug\carouselView\dev\lib\dotnet\Xamarin.Forms.Platform.dll
+txt/src/carouselView/dev/lib/dotnet/..\..\..\..\..\..\bin\bld\Debug\carouselView\dev\lib\dotnet\Xamarin.Forms.Xaml.dll
+txt/src/carouselView/dev/lib/platform/xamarin.ios/..\..\..\..\..\..\..\bin\bld\Debug\carouselView\dev\lib\platform\xamarin.ios\Xamarin.Forms.Core.dll
+txt/src/carouselView/dev/lib/platform/xamarin.ios/..\..\..\..\..\..\..\bin\bld\Debug\carouselView\dev\lib\platform\xamarin.ios\Xamarin.Forms.Platform.dll
+txt/src/carouselView/dev/lib/platform/xamarin.ios/..\..\..\..\..\..\..\bin\bld\Debug\carouselView\dev\lib\platform\xamarin.ios\Xamarin.Forms.Platform.iOS.dll
+txt/src/carouselView/dev/lib/platform/xamarin.ios/..\..\..\..\..\..\..\bin\bld\Debug\carouselView\dev\lib\platform\xamarin.ios\Xamarin.Forms.Xaml.dll
