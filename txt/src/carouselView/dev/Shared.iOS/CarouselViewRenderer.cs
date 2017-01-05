@@ -222,6 +222,7 @@ namespace Xamarin.Forms.Platform
 
 				// initialize properties
 				_position = Element.Position;
+				_controller.ReloadData(_position);
 
 				// hook up crud events
 				((ICarouselViewController)newElement).CollectionChanged += OnCollectionChanged;
@@ -254,12 +255,13 @@ namespace Xamarin.Forms.Platform
 				return;
 
 			base.Control.ReloadData();
-			_lastBounds = Bounds;
-
+			
 			var wasPortrait = _lastBounds.Height > _lastBounds.Width;
 			var nowPortrait = Bounds.Height > Bounds.Width;
 			if (wasPortrait != nowPortrait)
 				_controller.ScrollToPosition(_position, false);
+
+			_lastBounds = Bounds;
 		}
 		public override SizeRequest GetDesiredSize(double widthConstraint, double heightConstraint)
 		{
